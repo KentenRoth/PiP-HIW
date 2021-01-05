@@ -9,4 +9,14 @@ body {
   min-height: 100vh;
 }
 
+.container {
+  margin: auto;
+  width: 800px;
+}
+
+.header {
+  background: black;
+  height: 100vh;
+}
+
 /*# sourceMappingURL=style.css.map */
