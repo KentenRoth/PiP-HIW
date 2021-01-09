@@ -15,13 +15,11 @@ body {
 }
 
 .header {
-  background-image: url(./images/headerImg.svg);
-  background-position-y: 0%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url(./images/headerImg.svg);
   height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
-  margin-top: -100px;
 }
 
 .header-box {
