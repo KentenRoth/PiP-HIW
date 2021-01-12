@@ -9,6 +9,10 @@ body {
   min-height: 100vh;
 }
 
+.section {
+  padding-bottom: 20px;
+}
+
 .container {
   margin: auto;
   max-width: 800px;
@@ -16,6 +20,7 @@ body {
 
 .title {
   font-size: 15px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -106,6 +111,10 @@ body {
 .uses2 {
   border-bottom: 1px solid #202020;
   border-top: 1px solid #202020;
+}
+
+.what-i-learned-text {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
