@@ -93,4 +93,19 @@ body {
   padding: 20px;
 }
 
+.uses {
+  background-image: linear-gradient(to right, #00DDB8, #008972);
+  color: #272727;
+}
+
+.uses1, .uses2, .uses3 {
+  height: 300px;
+  width: 100%;
+}
+
+.uses2 {
+  border-bottom: 1px solid #202020;
+  border-top: 1px solid #202020;
+}
+
 /*# sourceMappingURL=style.css.map */
