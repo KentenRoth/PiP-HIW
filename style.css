@@ -14,6 +14,11 @@ body {
   max-width: 800px;
 }
 
+.title {
+  font-size: 15px;
+  text-align: center;
+}
+
 .header {
   background-image: linear-gradient(to right, #1564E0, #063B8F);
   display: flex;
@@ -82,6 +87,10 @@ body {
   color: #b3b0b0;
   text-align: center;
   font-style: italic;
+}
+
+.how-it-works-text {
+  padding: 20px;
 }
 
 /*# sourceMappingURL=style.css.map */
