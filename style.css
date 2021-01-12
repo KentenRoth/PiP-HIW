@@ -117,4 +117,25 @@ body {
   padding: 20px;
 }
 
+.footer {
+  border-top: #00DDB8 solid 1px;
+  text-align: center;
+  background: black;
+  width: 100vw;
+}
+
+.built-with-text {
+  padding-top: 20px;
+  padding-bottom: -15px;
+}
+
+.built-with-images {
+  padding: 20px 0px;
+  text-align: center;
+}
+.built-with-images img {
+  padding: 10px;
+  height: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */
