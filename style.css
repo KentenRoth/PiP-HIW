@@ -40,10 +40,6 @@ body {
   margin: auto;
   width: 100%;
 }
-.text-box p {
-  font-size: 20px;
-  padding: 20px;
-}
 
 .image-box {
   margin: auto;
@@ -57,19 +53,31 @@ body {
   margin-top: 30px;
 }
 .header-button button {
-  background: #008972;
+  background: #00DDB8;
   border: none;
   border-radius: 30px;
   cursor: pointer;
   padding: 13px 26px;
   font-size: 15px;
-  font-weight: 800;
+  font-weight: 600;
+  transition: ease-in-out 0.2s;
 }
 .header-button button:hover {
-  background: #00DDB8;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
   transform: scale(1.1);
   transition: ease-in-out 0.2s;
+}
+
+.gist {
+  display: block;
+  margin: auto;
+  padding: 0px 10px;
+  text-align: center;
+}
+.gist p {
+  color: #b3b0b0;
+  text-align: center;
+  font-style: italic;
 }
 
 /*# sourceMappingURL=style.css.map */
