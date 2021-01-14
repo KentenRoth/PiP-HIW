@@ -82,6 +82,16 @@ body {
   transition: ease-in-out 0.2s;
 }
 
+@media (max-width: 1000px) {
+  .header-container {
+    display: block;
+    margin: auto;
+  }
+
+  .image-box {
+    margin: 50px 0;
+  }
+}
 .gist {
   display: block;
   margin: auto;
