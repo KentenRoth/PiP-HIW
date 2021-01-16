@@ -4,7 +4,7 @@
 
 .uses1, .uses2, .uses3
     display: inline-grid
-    grid-template-columns: 1fr 1fr
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)) 
     width: 100%
 
 .uses-text
@@ -20,3 +20,17 @@
 .uses2
     border-bottom: 1px solid $body-background
     border-top: 1px solid $body-background
+
+@media (max-width: 799px)
+    .uses-text
+        padding: 0 20px
+    .flip
+        grid-row: 1
+    .uses-image
+        margin: auto
+        img
+            max-width: 80vw
+
+@media (max-width: 400px)
+        .uses1, .uses2, .uses3
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)) 

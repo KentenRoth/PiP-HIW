@@ -115,7 +115,7 @@ body {
 
 .uses1, .uses2, .uses3 {
   display: inline-grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
   width: 100%;
 }
 
@@ -138,6 +138,27 @@ body {
   border-top: 1px solid #202020;
 }
 
+@media (max-width: 799px) {
+  .uses-text {
+    padding: 0 20px;
+  }
+
+  .flip {
+    grid-row: 1;
+  }
+
+  .uses-image {
+    margin: auto;
+  }
+  .uses-image img {
+    max-width: 80vw;
+  }
+}
+@media (max-width: 400px) {
+  .uses1, .uses2, .uses3 {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
 .what-i-learned-text {
   padding: 20px;
 }
